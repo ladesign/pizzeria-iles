@@ -11,25 +11,12 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "paths": {
-      "@/*": [
-        "src/*"
-      ],
-      "~/*": [
-        "src/*"
-      ],
-      "~~/*": [
-        "*"
-      ]
+      "@/*": ["src/*"],
+      "~/*": ["src/*"],
+      "~~/*": ["*"]
     },
-    "types": [
-      "node"
-    ],
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ],
+    "types": ["node"],
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "skipLibCheck": true,
     "allowJs": true,
     "strict": false,

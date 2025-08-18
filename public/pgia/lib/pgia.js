@@ -1,3 +1,6 @@
+/* esLint-disable */
+/* prettier-ignore */
+
 /*!
  * PINEGROW INTERACTIONS (PGIA) Run-time library
  * VERSION: 2.14

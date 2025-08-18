@@ -2,10 +2,7 @@
     title: Home
 </page>
 <template>
-  <div>
-    <HeroSection />
-    <AboutTemplate />
-    <WalkThrough />
-  </div>
+    <div>
+</div>
 </template>
 <style scoped></style>

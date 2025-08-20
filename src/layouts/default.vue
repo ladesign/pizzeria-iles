@@ -10,12 +10,14 @@
   })
 </script>
 <template>
-    <div>
-        <div class="flex flex-col bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50">
-            <main class="mt-24 shadow">
-                <slot/>
-            </main>
-        </div>
+  <div>
+    <div
+      class="flex flex-col bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
+    >
+      <main>
+        <slot />
+      </main>
     </div>
+  </div>
 </template>
 <style></style>

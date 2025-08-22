@@ -2,8 +2,9 @@
     title: Home
 </page>
 <template>
-  <div>
-    <HeroSection />
-  </div>
+    <div>
+        <HeroSection/>
+        <FeatureSection/>
+    </div>
 </template>
 <style scoped></style>

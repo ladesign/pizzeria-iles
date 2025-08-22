@@ -16,6 +16,7 @@ const { name } = defineProps({
 // }
 </script>
 <template>
+    <!-- Hero Section -->
     <section class="bg-secondary-500 poster relative text-gray-300">
         <header>
             <div class="container mx-auto relative">

@@ -12,7 +12,7 @@ import tailwindForms from '@tailwindcss/forms'
 import tailwindCssPluginPinegrow from '@pinegrow/tailwindcss-plugin'
 
 export default {
-  darkMode: 'class',
+  darkMode: 'class', // Tailwind 只會在<html>有 class="dark" 的時候套用 dark: 樣式。即 <html class="dark"> 時
   plugins: [
     tailwindTypography,
     tailwindForms,
